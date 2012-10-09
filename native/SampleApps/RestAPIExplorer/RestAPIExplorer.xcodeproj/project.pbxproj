@@ -217,6 +217,18 @@
 		82AE434715FDB5C800FD5FA9 /* SFSoupQuerySpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSoupQuerySpec.h; sourceTree = "<group>"; };
 		82AE434815FDB5C800FD5FA9 /* libSalesforceSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSalesforceSDK.a; sourceTree = "<group>"; };
 		82B979BA15ED3D65006867AE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FAB41B371624221800F9F7A0 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FAB41B391624225400F9F7A0 /* SFRestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRestAPI.h; sourceTree = "<group>"; };
+		FAB41B3A162422A200F9F7A0 /* SFRestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRestRequest.h; sourceTree = "<group>"; };
+		FAB41B3B162422DC00F9F7A0 /* SFNativeRestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNativeRestAppDelegate.h; sourceTree = "<group>"; };
+		FAB41B3C1624234700F9F7A0 /* SFOAuthCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFOAuthCoordinator.h; sourceTree = "<group>"; };
+		FAB41B3D1624235700F9F7A0 /* SFIdentityCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFIdentityCoordinator.h; sourceTree = "<group>"; };
+		FAB41B3E1624237900F9F7A0 /* SFLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLogger.h; sourceTree = "<group>"; };
+		FAB41B3F162423B100F9F7A0 /* SFOAuthCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFOAuthCredentials.h; sourceTree = "<group>"; };
+		FAB41B40162423FA00F9F7A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RestAPIExplorer/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		FAB41B411624240F00F9F7A0 /* RestAPIExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestAPIExplorerViewController.h; path = RestAPIExplorer/Classes/RestAPIExplorerViewController.h; sourceTree = "<group>"; };
+		FAB41B421624244800F9F7A0 /* SFAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAccountManager.h; sourceTree = "<group>"; };
+		FAB41B431624245400F9F7A0 /* SFJsonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJsonUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +372,18 @@
 		7DF4D2CE1472E238005CE144 = {
 			isa = PBXGroup;
 			children = (
+				FAB41B431624245400F9F7A0 /* SFJsonUtils.h */,
+				FAB41B421624244800F9F7A0 /* SFAccountManager.h */,
+				FAB41B411624240F00F9F7A0 /* RestAPIExplorerViewController.h */,
+				FAB41B40162423FA00F9F7A0 /* AppDelegate.h */,
+				FAB41B3F162423B100F9F7A0 /* SFOAuthCredentials.h */,
+				FAB41B3E1624237900F9F7A0 /* SFLogger.h */,
+				FAB41B3D1624235700F9F7A0 /* SFIdentityCoordinator.h */,
+				FAB41B3C1624234700F9F7A0 /* SFOAuthCoordinator.h */,
+				FAB41B3B162422DC00F9F7A0 /* SFNativeRestAppDelegate.h */,
+				FAB41B3A162422A200F9F7A0 /* SFRestRequest.h */,
+				FAB41B391624225400F9F7A0 /* SFRestAPI.h */,
+				FAB41B371624221800F9F7A0 /* Header.h */,
 				8242E0C915AB823400E9E6AF /* QuartzCore.framework */,
 				7DF4D2EE1472E238005CE144 /* RestAPIExplorer */,
 				7DF4D2DD1472E238005CE144 /* Frameworks */,
